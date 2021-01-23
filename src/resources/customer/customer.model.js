@@ -26,6 +26,6 @@ const customerSchema = new mongoose.Schema({
     required: true,
   },
 });
-customerSchema.index({ customerId: 1 }, { unique: true });
+//customerSchema.index({ customerId: 1 }, { unique: true });
 
 export const Customer = mongoose.model("customer", customerSchema);
