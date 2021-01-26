@@ -17,10 +17,6 @@ const customerSchema = new mongoose.Schema({
     default: "Not availabel",
     required: true,
   },
-  martialStatus: {
-    type: Boolean,
-    required: true,
-  },
   income: {
     type: String,
     required: true,
